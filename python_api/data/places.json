@@ -1,0 +1,6406 @@
+[
+  {
+    "id": 1,
+    "name": "Spiti Valley",
+    "state": "Himachal Pradesh",
+    "trip_types": [
+      "adventure",
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "week",
+      "extended"
+    ],
+    "tags": [
+      "remote",
+      "offbeat",
+      "high-altitude",
+      "camping",
+      "monasteries"
+    ],
+    "description": "A cold desert mountain valley with dramatic landscapes, ancient monasteries, and starlit skies.",
+    "rating": 4.9
+  },
+  {
+    "id": 2,
+    "name": "Manali",
+    "state": "Himachal Pradesh",
+    "trip_types": [
+      "adventure",
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "summer",
+      "winter",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "snow",
+      "trekking",
+      "paragliding",
+      "riverside"
+    ],
+    "description": "A popular hill station offering adventure sports, lush valleys, and snow-capped peaks.",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "trip_types": [
+      "nature",
+      "mountain",
+      "heritage"
+    ],
+    "best_seasons": [
+      "summer",
+      "spring",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "colonial",
+      "mall-road",
+      "scenic",
+      "family"
+    ],
+    "description": "The former summer capital of British India with colonial architecture and pine-clad hills.",
+    "rating": 4.3
+  },
+  {
+    "id": 4,
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "adventure",
+      "spiritual",
+      "nature"
+    ],
+    "best_seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "rafting",
+      "yoga",
+      "temples",
+      "ganges"
+    ],
+    "description": "The yoga capital of the world, set along the Ganges with thrilling white-water rafting.",
+    "rating": 4.7
+  },
+  {
+    "id": 5,
+    "name": "Valley of Flowers",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "nature",
+      "adventure",
+      "mountain"
+    ],
+    "best_seasons": [
+      "monsoon"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "UNESCO",
+      "trek",
+      "wildflowers",
+      "alpine"
+    ],
+    "description": "A UNESCO World Heritage Site bursting with endemic alpine flowers during monsoon.",
+    "rating": 4.8
+  },
+  {
+    "id": 6,
+    "name": "Nainital",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "summer",
+      "autumn",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "lake",
+      "boating",
+      "scenic",
+      "family"
+    ],
+    "description": "A charming lake town surrounded by mountains, perfect for a relaxing getaway.",
+    "rating": 4.4
+  },
+  {
+    "id": 7,
+    "name": "Auli",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "adventure",
+      "mountain"
+    ],
+    "best_seasons": [
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "skiing",
+      "snow",
+      "panoramic",
+      "meadows"
+    ],
+    "description": "India's premier skiing destination with panoramic Himalayan views.",
+    "rating": 4.6
+  },
+  {
+    "id": 8,
+    "name": "Goa Beaches",
+    "state": "Goa",
+    "trip_types": [
+      "beach",
+      "adventure",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "nightlife",
+      "watersports",
+      "churches",
+      "seafood"
+    ],
+    "description": "India's beach paradise with golden sands, vibrant nightlife, and Portuguese heritage.",
+    "rating": 4.6
+  },
+  {
+    "id": 9,
+    "name": "Munnar",
+    "state": "Kerala",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "autumn",
+      "winter",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "tea-plantations",
+      "misty",
+      "wildlife",
+      "scenic"
+    ],
+    "description": "Rolling tea plantations, misty mountains, and rare Neelakurinji blooms.",
+    "rating": 4.7
+  },
+  {
+    "id": 10,
+    "name": "Alleppey Backwaters",
+    "state": "Kerala",
+    "trip_types": [
+      "nature",
+      "beach"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "houseboat",
+      "backwaters",
+      "lagoons",
+      "paddy-fields"
+    ],
+    "description": "Cruise through serene backwaters on a traditional houseboat amid coconut palms.",
+    "rating": 4.8
+  },
+  {
+    "id": 11,
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "trip_types": [
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "forts",
+      "palaces",
+      "pink-city",
+      "bazaars"
+    ],
+    "description": "The Pink City with magnificent forts, royal palaces, and colorful bazaars.",
+    "rating": 4.6,
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41"
+  },
+  {
+    "id": 12,
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "trip_types": [
+      "heritage",
+      "nature"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn",
+      "monsoon"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "lakes",
+      "palaces",
+      "romantic",
+      "sunset"
+    ],
+    "description": "The City of Lakes, known for its romantic setting, royal palaces, and shimmering lakes.",
+    "rating": 4.8,
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41"
+  },
+  {
+    "id": 13,
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "trip_types": [
+      "heritage",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "desert",
+      "safari",
+      "golden-fort",
+      "dunes"
+    ],
+    "description": "The Golden City rising from the Thar Desert with a living fort and camel safaris.",
+    "rating": 4.7,
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41"
+  },
+  {
+    "id": 14,
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "ghats",
+      "ganges",
+      "temples",
+      "aarti"
+    ],
+    "description": "One of the oldest living cities, where evening Ganga Aarti illuminates ancient ghats.",
+    "rating": 4.7
+  },
+  {
+    "id": 15,
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "taj-mahal",
+      "mughal",
+      "UNESCO",
+      "iconic"
+    ],
+    "description": "Home to the Taj Mahal, one of the seven wonders of the world.",
+    "rating": 4.5
+  },
+  {
+    "id": 16,
+    "name": "Ladakh",
+    "state": "Ladakh",
+    "trip_types": [
+      "adventure",
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "summer"
+    ],
+    "suitable_durations": [
+      "week",
+      "extended"
+    ],
+    "tags": [
+      "passes",
+      "monasteries",
+      "pangong",
+      "road-trip"
+    ],
+    "description": "A high-altitude desert with crystal-clear lakes, ancient monasteries, and epic road trips.",
+    "rating": 4.9
+  },
+  {
+    "id": 17,
+    "name": "Srinagar",
+    "state": "Jammu & Kashmir",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "summer",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "dal-lake",
+      "shikara",
+      "gardens",
+      "houseboat"
+    ],
+    "description": "The crown jewel of Kashmir with Dal Lake, Mughal gardens, and floating houseboats.",
+    "rating": 4.8
+  },
+  {
+    "id": 18,
+    "name": "Gulmarg",
+    "state": "Jammu & Kashmir",
+    "trip_types": [
+      "adventure",
+      "mountain"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "gondola",
+      "skiing",
+      "meadows",
+      "snow"
+    ],
+    "description": "A meadow of flowers in summer and Asia's top skiing destination in winter.",
+    "rating": 4.7
+  },
+  {
+    "id": 19,
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "tea",
+      "toy-train",
+      "kanchenjunga",
+      "colonial"
+    ],
+    "description": "The Queen of Hills, famous for tea gardens, the toy train, and Kanchenjunga views.",
+    "rating": 4.5
+  },
+  {
+    "id": 20,
+    "name": "Sundarbans",
+    "state": "West Bengal",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "mangroves",
+      "royal-bengal-tiger",
+      "delta",
+      "boat-safari"
+    ],
+    "description": "The world's largest mangrove forest and home to the elusive Royal Bengal Tiger.",
+    "rating": 4.4
+  },
+  {
+    "id": 21,
+    "name": "Gangtok",
+    "state": "Sikkim",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "spring",
+      "autumn",
+      "summer"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "monasteries",
+      "viewpoints",
+      "clean",
+      "orchids"
+    ],
+    "description": "A pristine hill capital with monastery trails, panoramic Himalayan views, and vibrant orchids.",
+    "rating": 4.6
+  },
+  {
+    "id": 22,
+    "name": "Pelling",
+    "state": "Sikkim",
+    "trip_types": [
+      "nature",
+      "mountain",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "kanchenjunga",
+      "waterfalls",
+      "monasteries",
+      "offbeat"
+    ],
+    "description": "An offbeat gem with majestic Kanchenjunga views, ancient monasteries, and cascading waterfalls.",
+    "rating": 4.5
+  },
+  {
+    "id": 23,
+    "name": "Tawang",
+    "state": "Arunachal Pradesh",
+    "trip_types": [
+      "mountain",
+      "spiritual",
+      "nature"
+    ],
+    "best_seasons": [
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "week",
+      "extended"
+    ],
+    "tags": [
+      "monastery",
+      "high-altitude",
+      "sela-pass",
+      "tribal"
+    ],
+    "description": "Home to India's largest Buddhist monastery, set amid snow-draped mountains.",
+    "rating": 4.7
+  },
+  {
+    "id": 24,
+    "name": "Ziro Valley",
+    "state": "Arunachal Pradesh",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "spring",
+      "monsoon"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "UNESCO",
+      "tribal",
+      "paddy",
+      "music-festival"
+    ],
+    "description": "A UNESCO World Heritage tentative site with Apatani tribal culture and lush paddy fields.",
+    "rating": 4.5
+  },
+  {
+    "id": 25,
+    "name": "Cherrapunji",
+    "state": "Meghalaya",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "waterfalls",
+      "living-root-bridges",
+      "wettest-place",
+      "caves"
+    ],
+    "description": "One of the wettest places on Earth, with living root bridges and thundering waterfalls.",
+    "rating": 4.7
+  },
+  {
+    "id": 26,
+    "name": "Shillong",
+    "state": "Meghalaya",
+    "trip_types": [
+      "nature",
+      "mountain",
+      "urban"
+    ],
+    "best_seasons": [
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "scotland-of-east",
+      "music",
+      "waterfalls",
+      "lakes"
+    ],
+    "description": "The Scotland of the East, a vibrant hill city with waterfalls, lakes, and live music.",
+    "rating": 4.4
+  },
+  {
+    "id": 27,
+    "name": "Kaziranga",
+    "state": "Assam",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "one-horned-rhino",
+      "safari",
+      "UNESCO",
+      "wildlife"
+    ],
+    "description": "A UNESCO site sheltering two-thirds of the world's one-horned rhinoceros population.",
+    "rating": 4.7
+  },
+  {
+    "id": 28,
+    "name": "Hampi",
+    "state": "Karnataka",
+    "trip_types": [
+      "heritage",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "ruins",
+      "bouldering",
+      "vijayanagara",
+      "UNESCO"
+    ],
+    "description": "A surreal landscape of Vijayanagara ruins scattered among giant boulders.",
+    "rating": 4.8
+  },
+  {
+    "id": 29,
+    "name": "Coorg",
+    "state": "Karnataka",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "coffee",
+      "misty",
+      "waterfalls",
+      "trekking"
+    ],
+    "description": "The Scotland of India with lush coffee plantations, misty hills, and spice estates.",
+    "rating": 4.6
+  },
+  {
+    "id": 30,
+    "name": "Andaman Islands",
+    "state": "Andaman & Nicobar Islands",
+    "trip_types": [
+      "beach",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "week",
+      "extended"
+    ],
+    "tags": [
+      "scuba",
+      "coral-reefs",
+      "pristine",
+      "islands"
+    ],
+    "description": "Pristine turquoise waters, coral reefs, and untouched tropical islands.",
+    "rating": 4.8
+  },
+  {
+    "id": 31,
+    "name": "Rann of Kutch",
+    "state": "Gujarat",
+    "trip_types": [
+      "nature",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "white-desert",
+      "rann-utsav",
+      "full-moon",
+      "handicrafts"
+    ],
+    "description": "A vast white salt desert that transforms into a cultural spectacle during Rann Utsav.",
+    "rating": 4.6
+  },
+  {
+    "id": 32,
+    "name": "Pondicherry",
+    "state": "Puducherry",
+    "trip_types": [
+      "beach",
+      "heritage",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "french-quarter",
+      "auroville",
+      "promenade",
+      "cafes"
+    ],
+    "description": "A Franco-Tamil coastal town with pastel streets, Auroville, and serene beaches.",
+    "rating": 4.5
+  },
+  {
+    "id": 33,
+    "name": "Mahabalipuram",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "heritage",
+      "beach"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "shore-temple",
+      "rock-cut",
+      "UNESCO",
+      "pallava"
+    ],
+    "description": "UNESCO Pallava-era rock-cut temples overlooking the Bay of Bengal.",
+    "rating": 4.4
+  },
+  {
+    "id": 34,
+    "name": "Madurai",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "heritage",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "meenakshi-temple",
+      "dravidian",
+      "ancient",
+      "festivals"
+    ],
+    "description": "The city that never sleeps, centered around the magnificent Meenakshi Amman Temple.",
+    "rating": 4.5
+  },
+  {
+    "id": 35,
+    "name": "Ooty",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "summer",
+      "spring",
+      "monsoon"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "nilgiris",
+      "toy-train",
+      "botanical",
+      "tea"
+    ],
+    "description": "Queen of the Nilgiris with botanical gardens, a heritage toy train, and rolling tea estates.",
+    "rating": 4.4
+  },
+  {
+    "id": 36,
+    "name": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "temples",
+      "UNESCO",
+      "sculptures",
+      "chandela"
+    ],
+    "description": "UNESCO temples adorned with exquisite sculptures depicting celestial life.",
+    "rating": 4.5
+  },
+  {
+    "id": 37,
+    "name": "Orchha",
+    "state": "Madhya Pradesh",
+    "trip_types": [
+      "heritage",
+      "nature"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "cenotaphs",
+      "bundela",
+      "riverside",
+      "offbeat"
+    ],
+    "description": "A forgotten kingdom with grand cenotaphs and palaces along the Betwa River.",
+    "rating": 4.4
+  },
+  {
+    "id": 38,
+    "name": "Bandhavgarh",
+    "state": "Madhya Pradesh",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "summer",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "tiger",
+      "safari",
+      "jungle",
+      "wildlife"
+    ],
+    "description": "One of India's best tiger reserves with the highest density of Bengal tigers.",
+    "rating": 4.6
+  },
+  {
+    "id": 39,
+    "name": "Ajanta & Ellora",
+    "state": "Maharashtra",
+    "trip_types": [
+      "heritage",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "monsoon",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "caves",
+      "UNESCO",
+      "buddhist",
+      "rock-cut"
+    ],
+    "description": "Ancient rock-cut caves with extraordinary Buddhist, Hindu, and Jain artworks.",
+    "rating": 4.7
+  },
+  {
+    "id": 40,
+    "name": "Mumbai",
+    "state": "Maharashtra",
+    "trip_types": [
+      "urban",
+      "heritage",
+      "beach"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "gateway",
+      "bollywood",
+      "street-food",
+      "nightlife"
+    ],
+    "description": "The city of dreams — a melting pot of cultures, Bollywood glamour, and iconic landmarks.",
+    "rating": 4.5
+  },
+  {
+    "id": 41,
+    "name": "Lonavala",
+    "state": "Maharashtra",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "waterfalls",
+      "forts",
+      "misty",
+      "trekking"
+    ],
+    "description": "A monsoon paradise with cascading waterfalls, ancient forts, and misty valleys.",
+    "rating": 4.2
+  },
+  {
+    "id": 42,
+    "name": "Amritsar",
+    "state": "Punjab",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "golden-temple",
+      "wagah-border",
+      "langar",
+      "historic"
+    ],
+    "description": "Home of the Golden Temple, the holiest Sikh shrine, and the Wagah Border ceremony.",
+    "rating": 4.8
+  },
+  {
+    "id": 43,
+    "name": "Delhi",
+    "state": "Delhi",
+    "trip_types": [
+      "urban",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "monuments",
+      "food",
+      "mughal",
+      "markets"
+    ],
+    "description": "India's capital blending Mughal monuments, bustling markets, and diverse street food.",
+    "rating": 4.3
+  },
+  {
+    "id": 44,
+    "name": "Bangalore",
+    "state": "Karnataka",
+    "trip_types": [
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "tech-hub",
+      "parks",
+      "breweries",
+      "nightlife"
+    ],
+    "description": "India's Silicon Valley with a vibrant food scene, craft breweries, and pleasant weather.",
+    "rating": 4.2
+  },
+  {
+    "id": 45,
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "trip_types": [
+      "urban",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "charminar",
+      "biryani",
+      "golconda",
+      "pearls"
+    ],
+    "description": "The City of Pearls with the iconic Charminar, Golconda Fort, and legendary biryani.",
+    "rating": 4.4
+  },
+  {
+    "id": 46,
+    "name": "Mysore",
+    "state": "Karnataka",
+    "trip_types": [
+      "heritage",
+      "nature"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "palace",
+      "dasara",
+      "sandalwood",
+      "gardens"
+    ],
+    "description": "The City of Palaces, famous for the illuminated Mysore Palace and Dasara festival.",
+    "rating": 4.5
+  },
+  {
+    "id": 47,
+    "name": "Wayanad",
+    "state": "Kerala",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "wildlife",
+      "caves",
+      "waterfalls",
+      "spices"
+    ],
+    "description": "A lush Western Ghats district with wildlife sanctuaries, prehistoric caves, and spice plantations.",
+    "rating": 4.5
+  },
+  {
+    "id": 48,
+    "name": "Varkala",
+    "state": "Kerala",
+    "trip_types": [
+      "beach",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "cliff-beach",
+      "temple",
+      "ayurveda",
+      "sunset"
+    ],
+    "description": "A dramatic cliff-side beach town with ancient temples and Ayurveda retreats.",
+    "rating": 4.4
+  },
+  {
+    "id": 49,
+    "name": "Puri",
+    "state": "Odisha",
+    "trip_types": [
+      "beach",
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "jagannath",
+      "rath-yatra",
+      "golden-beach",
+      "pilgrimage"
+    ],
+    "description": "A sacred pilgrimage city with the Jagannath Temple and a sprawling golden beach.",
+    "rating": 4.4
+  },
+  {
+    "id": 50,
+    "name": "Konark",
+    "state": "Odisha",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "sun-temple",
+      "UNESCO",
+      "chariot",
+      "sculpture"
+    ],
+    "description": "The UNESCO Sun Temple shaped like a colossal chariot with intricately carved wheels.",
+    "rating": 4.6
+  },
+  {
+    "id": 51,
+    "name": "Bodh Gaya",
+    "state": "Bihar",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "buddha",
+      "mahabodhi",
+      "UNESCO",
+      "meditation"
+    ],
+    "description": "Where Buddha attained enlightenment, centered around the sacred Mahabodhi Temple.",
+    "rating": 4.5
+  },
+  {
+    "id": 52,
+    "name": "Lakshadweep",
+    "state": "Lakshadweep",
+    "trip_types": [
+      "beach",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "coral-islands",
+      "lagoons",
+      "diving",
+      "pristine"
+    ],
+    "description": "India's hidden coral paradise with crystal lagoons and world-class diving.",
+    "rating": 4.7
+  },
+  {
+    "id": 53,
+    "name": "Kodaikanal",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "lake",
+      "pine-forests",
+      "waterfalls",
+      "misty"
+    ],
+    "description": "The Princess of Hill Stations with a star-shaped lake surrounded by pine forests.",
+    "rating": 4.4
+  },
+  {
+    "id": 54,
+    "name": "Ranthambore",
+    "state": "Rajasthan",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "summer",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "tiger",
+      "fort",
+      "safari",
+      "wildlife"
+    ],
+    "description": "A former royal hunting ground, now one of India's finest tiger reserves.",
+    "rating": 4.6,
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41"
+  },
+  {
+    "id": 55,
+    "name": "Pushkar",
+    "state": "Rajasthan",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "brahma-temple",
+      "camel-fair",
+      "sacred-lake",
+      "ghats"
+    ],
+    "description": "A sacred town with the only Brahma temple, a holy lake, and the vibrant Camel Fair.",
+    "rating": 4.4,
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41"
+  },
+  {
+    "id": 56,
+    "name": "Kolkata",
+    "state": "West Bengal",
+    "trip_types": [
+      "urban",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "victoria-memorial",
+      "howrah",
+      "durga-puja",
+      "culture"
+    ],
+    "description": "The City of Joy with colonial grandeur, literary heritage, and the iconic Durga Puja.",
+    "rating": 4.3
+  },
+  {
+    "id": 57,
+    "name": "Chandigarh",
+    "state": "Punjab",
+    "trip_types": [
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "rock-garden",
+      "planned-city",
+      "le-corbusier",
+      "rose-garden"
+    ],
+    "description": "India's best planned city designed by Le Corbusier with the whimsical Rock Garden.",
+    "rating": 4.1
+  },
+  {
+    "id": 58,
+    "name": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "trip_types": [
+      "beach",
+      "nature"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "araku-valley",
+      "submarine",
+      "beaches",
+      "coastal"
+    ],
+    "description": "A port city with pristine beaches, the Araku Valley coffee trail, and a submarine museum.",
+    "rating": 4.3
+  },
+  {
+    "id": 59,
+    "name": "Tirupati",
+    "state": "Andhra Pradesh",
+    "trip_types": [
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn",
+      "summer"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "balaji",
+      "tirumala",
+      "pilgrimage",
+      "dravidian"
+    ],
+    "description": "Home to the world's richest and most-visited temple — Sri Venkateswara (Balaji).",
+    "rating": 4.5
+  },
+  {
+    "id": 60,
+    "name": "Chitrakote Falls",
+    "state": "Chhattisgarh",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "niagara-of-india",
+      "waterfall",
+      "tribal",
+      "offbeat"
+    ],
+    "description": "The widest waterfall in India, often called the Niagara of India, set in tribal heartland.",
+    "rating": 4.3
+  },
+  {
+    "id": 61,
+    "name": "Kohima",
+    "state": "Nagaland",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "autumn",
+      "spring"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "hornbill-festival",
+      "tribal",
+      "war-cemetery",
+      "offbeat"
+    ],
+    "description": "A hilly town known for the Hornbill Festival and rich Naga tribal heritage.",
+    "rating": 4.3
+  },
+  {
+    "id": 62,
+    "name": "Loktak Lake",
+    "state": "Manipur",
+    "trip_types": [
+      "nature"
+    ],
+    "best_seasons": [
+      "autumn",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "floating-islands",
+      "phumdi",
+      "sangai",
+      "unique"
+    ],
+    "description": "The only floating lake in the world, with unique phumdi islands and the endangered Sangai deer.",
+    "rating": 4.4
+  },
+  {
+    "id": 63,
+    "name": "Aizawl",
+    "state": "Mizoram",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "autumn",
+      "spring"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "hilltop",
+      "churches",
+      "offbeat",
+      "peaceful"
+    ],
+    "description": "A serene hilltop capital with dramatic cliffs, vibrant churches, and warm Mizo culture.",
+    "rating": 4.1
+  },
+  {
+    "id": 64,
+    "name": "Shivrajpur Beach",
+    "state": "Gujarat",
+    "trip_types": [
+      "beach",
+      "nature",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "blue-flag",
+      "pristine",
+      "scuba",
+      "dwarka"
+    ],
+    "description": "A gorgeous Blue Flag certified beach near Dwarka, famous for its crystal-clear blue waters, white sands, and peaceful vibes.",
+    "rating": 4.7
+  },
+  {
+    "id": 65,
+    "name": "Mandvi Beach",
+    "state": "Gujarat",
+    "trip_types": [
+      "beach",
+      "heritage",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "wind-farm",
+      "palace",
+      "sunset",
+      "camel-ride"
+    ],
+    "description": "A pristine sandy beach in Kutch featuring massive wind mills, water sports, camel rides, and the majestic Vijay Vilas Palace nearby.",
+    "rating": 4.4
+  },
+  {
+    "id": 66,
+    "name": "Somnath & Dwarka",
+    "state": "Gujarat",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "temples",
+      "jyotirlinga",
+      "ancient",
+      "coastline"
+    ],
+    "description": "Sacred coastal towns housing ancient, grand temples of immense historic, mythological, and spiritual importance facing the Arabian Sea.",
+    "rating": 4.8
+  },
+  {
+    "id": 67,
+    "name": "Gir National Park",
+    "state": "Gujarat",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "asiatic-lions",
+      "safari",
+      "forest",
+      "wildlife"
+    ],
+    "description": "The beautiful dry deciduous forest sanctuary which is the sole natural home of wild Asiatic Lions in the world.",
+    "rating": 4.7
+  },
+  {
+    "id": 68,
+    "name": "Saputara",
+    "state": "Gujarat",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "hill-station",
+      "lake",
+      "ropeway",
+      "tribal"
+    ],
+    "description": "Gujarat's only hill station, nestled in the Sahyadri range, famous for its misty monsoons, lakes, and tribal heritage.",
+    "rating": 4.2
+  },
+  {
+    "id": 69,
+    "name": "Champaner-Pavagadh",
+    "state": "Gujarat",
+    "trip_types": [
+      "heritage",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "monsoon",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "UNESCO",
+      "fort",
+      "mosque",
+      "ropeway"
+    ],
+    "description": "A UNESCO World Heritage Site featuring ancient Hindu temples, historical fortresses, and beautifully carved Islamic mosques.",
+    "rating": 4.5
+  },
+  {
+    "id": 70,
+    "name": "Sun Temple Modhera",
+    "state": "Gujarat",
+    "trip_types": [
+      "heritage",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "solanki-architecture",
+      "stepwell",
+      "sun-god",
+      "light-show"
+    ],
+    "description": "An architectural marvel dedicated to the Sun God, featuring an exquisite stepwell (Surya Kund) and intricate stone carvings.",
+    "rating": 4.6
+  },
+  {
+    "id": 71,
+    "name": "Rani ki Vav Patan",
+    "state": "Gujarat",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "UNESCO",
+      "stepwell",
+      "sculptures",
+      "solanki"
+    ],
+    "description": "An exquisite UNESCO World Heritage stepwell built in the 11th century, showcasing masterclass subterranean architecture.",
+    "rating": 4.7
+  },
+  {
+    "id": 72,
+    "name": "Lothal",
+    "state": "Gujarat",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "indus-valley",
+      "ancient-dockyard",
+      "museum",
+      "archaeological"
+    ],
+    "description": "One of the most prominent cities of the ancient Indus Valley Civilisation, featuring the world's oldest known artificial dockyard.",
+    "rating": 4.3
+  },
+  {
+    "id": 73,
+    "name": "Dharamshala & McLeod Ganj",
+    "state": "Himachal Pradesh",
+    "trip_types": [
+      "mountain",
+      "spiritual",
+      "nature"
+    ],
+    "best_seasons": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "dalai-lama",
+      "tibetan-culture",
+      "monasteries",
+      "trekking"
+    ],
+    "description": "The home of His Holiness the Dalai Lama, blending Tibetan culture with beautiful Himalayan pine forests and cafes.",
+    "rating": 4.6
+  },
+  {
+    "id": 74,
+    "name": "Dalhousie",
+    "state": "Himachal Pradesh",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "summer",
+      "spring",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "colonial",
+      "scenic",
+      "pine-forest",
+      "peaceful"
+    ],
+    "description": "A quiet hill station built across five hills, boasting colonial-era churches and misty pine-draped valleys.",
+    "rating": 4.4
+  },
+  {
+    "id": 75,
+    "name": "Kasol",
+    "state": "Himachal Pradesh",
+    "trip_types": [
+      "mountain",
+      "adventure",
+      "nature"
+    ],
+    "best_seasons": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "parvati-valley",
+      "backpackers",
+      "trekking",
+      "cafes"
+    ],
+    "description": "A vibrant hub in the Parvati Valley popular among backpackers, trekkers, and lovers of rustic mountain cafes.",
+    "rating": 4.5
+  },
+  {
+    "id": 76,
+    "name": "Bir Billing",
+    "state": "Himachal Pradesh",
+    "trip_types": [
+      "adventure",
+      "mountain"
+    ],
+    "best_seasons": [
+      "autumn",
+      "spring",
+      "summer"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "paragliding",
+      "monasteries",
+      "tibetan",
+      "sunset"
+    ],
+    "description": "The paragliding capital of India, offering breathtaking tandem flights and a peaceful Tibetan colony.",
+    "rating": 4.7
+  },
+  {
+    "id": 77,
+    "name": "Khajjiar",
+    "state": "Himachal Pradesh",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "summer",
+      "spring",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "meadows",
+      "lake",
+      "mini-switzerland",
+      "deodar"
+    ],
+    "description": "Often called the Mini Switzerland of India, featuring a huge saucer-shaped meadow surrounded by dense deodar forests.",
+    "rating": 4.3
+  },
+  {
+    "id": 78,
+    "name": "Kaza",
+    "state": "Himachal Pradesh",
+    "trip_types": [
+      "mountain",
+      "adventure",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "week",
+      "extended"
+    ],
+    "tags": [
+      "spiti-capital",
+      "key-monastery",
+      "high-altitude",
+      "offbeat"
+    ],
+    "description": "The administrative capital of Spiti Valley, serving as a base to explore high-altitude villages and the iconic Key Monastery.",
+    "rating": 4.8
+  },
+  {
+    "id": 79,
+    "name": "Kasauli",
+    "state": "Himachal Pradesh",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "summer",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "colonial",
+      "peaceful",
+      "sunset-point",
+      "walks"
+    ],
+    "description": "A cozy, quiet cantonment town with cobbled pathways, colonial architecture, and beautiful walking trails.",
+    "rating": 4.2
+  },
+  {
+    "id": 80,
+    "name": "Tirthan Valley",
+    "state": "Himachal Pradesh",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "trout-fishing",
+      "waterfalls",
+      "great-himalayan-park",
+      "offbeat"
+    ],
+    "description": "An eco-tourism heaven by the Tirthan River, offering gateway to the UNESCO Great Himalayan National Park.",
+    "rating": 4.6
+  },
+  {
+    "id": 81,
+    "name": "Mussoorie",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "summer",
+      "spring",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "queen-of-hills",
+      "mall-road",
+      "waterfalls",
+      "family"
+    ],
+    "description": "The Queen of the Hills, offering gorgeous views of the Shivalik range and lively Mall Road entertainment.",
+    "rating": 4.3
+  },
+  {
+    "id": 82,
+    "name": "Chopta",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "mountain",
+      "adventure",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "tungnath",
+      "trekking",
+      "snow",
+      "meadows"
+    ],
+    "description": "An unspoiled valley known as the 'Mini Switzerland of Uttarakhand', serving as the base for the Tungnath Temple trek.",
+    "rating": 4.7
+  },
+  {
+    "id": 83,
+    "name": "Kedarnath",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "spiritual",
+      "mountain"
+    ],
+    "best_seasons": [
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "shiva",
+      "char-dham",
+      "high-altitude",
+      "pilgrimage"
+    ],
+    "description": "One of the holiest Hindu shrines dedicated to Lord Shiva, nestled beautifully amidst dramatic glacier-capped peaks.",
+    "rating": 4.9
+  },
+  {
+    "id": 84,
+    "name": "Badrinath",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "spiritual",
+      "mountain"
+    ],
+    "best_seasons": [
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "short",
+      "week"
+    ],
+    "tags": [
+      "vishnu",
+      "char-dham",
+      "pilgrimage",
+      "alknanda"
+    ],
+    "description": "The sacred seat of Lord Vishnu, situated along the banks of the Alaknanda River at a spectacular high-altitude setting.",
+    "rating": 4.8
+  },
+  {
+    "id": 85,
+    "name": "Haridwar",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "har-ki-pauri",
+      "ganga-aarti",
+      "pilgrimage",
+      "holy-dip"
+    ],
+    "description": "An ancient pilgrimage city where the Ganges emerges from the Himalayas, famous for the magnificent Har Ki Pauri ghat.",
+    "rating": 4.6
+  },
+  {
+    "id": 86,
+    "name": "Jim Corbett National Park",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "tiger-reserve",
+      "safari",
+      "jungle",
+      "wildlife"
+    ],
+    "description": "India's oldest national park, famous for hosting the majestic Bengal Tiger and beautiful wilderness resorts.",
+    "rating": 4.5
+  },
+  {
+    "id": 87,
+    "name": "Lansdowne",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "summer",
+      "monsoon",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "quiet",
+      "military-cantt",
+      "pines",
+      "eco-friendly"
+    ],
+    "description": "An extremely clean, quiet military cantonment town surrounded by thick oak and blue pine forests.",
+    "rating": 4.3
+  },
+  {
+    "id": 88,
+    "name": "Ranikhet",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "golf-course",
+      "himalayan-views",
+      "peaceful",
+      "apple-orchards"
+    ],
+    "description": "A peaceful hill station famous for its sprawling 9-hole golf course, apple orchards, and panoramic Himalayan views.",
+    "rating": 4.4
+  },
+  {
+    "id": 89,
+    "name": "Kausani",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "trishul-view",
+      "tea-gardens",
+      "sunset",
+      "peaceful"
+    ],
+    "description": "Offers spectacular 300 km panoramic views of Himalayan peaks like Trishul, Nanda Devi, and Panchachuli.",
+    "rating": 4.4
+  },
+  {
+    "id": 90,
+    "name": "Munsiari",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "mountain",
+      "adventure"
+    ],
+    "best_seasons": [
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "week",
+      "extended"
+    ],
+    "tags": [
+      "panchachuli",
+      "trekking",
+      "offbeat",
+      "glaciers"
+    ],
+    "description": "A pristine mountain village known as the gateway to the Johar Valley, offering dramatic views of the Panchachuli peaks.",
+    "rating": 4.7
+  },
+  {
+    "id": 91,
+    "name": "Dhanaulti",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "summer",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "eco-park",
+      "snow",
+      "deodar-forest",
+      "peaceful"
+    ],
+    "description": "A peaceful alpine retreat filled with giant deodar and oak trees, often covered in thick blankets of snow in winter.",
+    "rating": 4.2
+  },
+  {
+    "id": 92,
+    "name": "Gokarna",
+    "state": "Karnataka",
+    "trip_types": [
+      "beach",
+      "spiritual",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "om-beach",
+      "half-moon-beach",
+      "shiva-temple",
+      "trekking"
+    ],
+    "description": "A unique coastal town famous for its sacred Mahabaleshwar Shiva temple and pristine trek-accessible beaches like Om and Half Moon.",
+    "rating": 4.6
+  },
+  {
+    "id": 93,
+    "name": "Chikmagalur",
+    "state": "Karnataka",
+    "trip_types": [
+      "mountain",
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "coffee-birthplace",
+      "mullayanagiri",
+      "trekking",
+      "waterfalls"
+    ],
+    "description": "The birthplace of coffee in India, offering lush green plantations, misty peaks, and the highest trekking peak Mullayanagiri.",
+    "rating": 4.6
+  },
+  {
+    "id": 94,
+    "name": "Kabini Wildlife Sanctuary",
+    "state": "Karnataka",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "black-panther",
+      "river-safari",
+      "luxury-resorts",
+      "elephants"
+    ],
+    "description": "One of India's top wildlife spots, famous for spectacular river safaris, huge elephant herds, and the rare Asiatic black panther.",
+    "rating": 4.8
+  },
+  {
+    "id": 95,
+    "name": "Bandipur National Park",
+    "state": "Karnataka",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "tiger-reserve",
+      "nilgiri-biosphere",
+      "deer",
+      "forest-safari"
+    ],
+    "description": "Part of the famous Nilgiri Biosphere Reserve, known for dry deciduous forests sheltering tigers, leopards, and gaurs.",
+    "rating": 4.5
+  },
+  {
+    "id": 96,
+    "name": "Jog Falls",
+    "state": "Karnataka",
+    "trip_types": [
+      "nature"
+    ],
+    "best_seasons": [
+      "monsoon"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "highest-waterfalls",
+      "scenic",
+      "monsoon-magic",
+      "sharavathi"
+    ],
+    "description": "One of the tallest un-tiered waterfalls in India, falling gloriously in four distinct cascades (Raja, Rani, Roarer, Rocket) in monsoon.",
+    "rating": 4.5
+  },
+  {
+    "id": 97,
+    "name": "Badami Caves",
+    "state": "Karnataka",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "rock-cut-temples",
+      "chalukya",
+      "red-sandstone",
+      "lake"
+    ],
+    "description": "The historic capital of the Chalukyas, famous for 6th-century rock-cut temples carved out of massive red sandstone cliffs.",
+    "rating": 4.6
+  },
+  {
+    "id": 98,
+    "name": "Pattadakal",
+    "state": "Karnataka",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "UNESCO",
+      "temple-complex",
+      "vesara-style",
+      "chalukya"
+    ],
+    "description": "A UNESCO World Heritage Site featuring a beautiful complex of 7th-century temples showcasing hybrid Northern/Southern architectural styles.",
+    "rating": 4.5
+  },
+  {
+    "id": 99,
+    "name": "Nandi Hills",
+    "state": "Karnataka",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "spring",
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "sunrise",
+      "hillfort",
+      "clouds",
+      "cycling"
+    ],
+    "description": "A popular weekend hilltop getaway near Bangalore, famous for spectacular sunrise views above a sea of low clouds.",
+    "rating": 4.2
+  },
+  {
+    "id": 100,
+    "name": "Aihole",
+    "state": "Karnataka",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "cradle-of-architecture",
+      "stone-temples",
+      "chalukya",
+      "durga-temple"
+    ],
+    "description": "Often called the cradle of Hindu rock temple architecture, boasting over 120 stone temples dating back to the 5th century.",
+    "rating": 4.4
+  },
+  {
+    "id": 101,
+    "name": "Coonoor",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "nilgiris",
+      "tea-gardens",
+      "toy-train",
+      "peaceful"
+    ],
+    "description": "A quieter, smaller sister to Ooty, featuring gorgeous tea valleys, birding trails, and the Toy Train route.",
+    "rating": 4.5
+  },
+  {
+    "id": 102,
+    "name": "Yercaud",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "lake",
+      "shevaroy-hills",
+      "orange-groves",
+      "scenic"
+    ],
+    "description": "The jewel of the Shevaroy Hills, known for coffee plantations, orange groves, and a beautiful central boating lake.",
+    "rating": 4.2
+  },
+  {
+    "id": 103,
+    "name": "Rameshwaram",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "spiritual",
+      "beach",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "char-dham",
+      "corridor",
+      "pamban-bridge",
+      "sea-dip"
+    ],
+    "description": "Part of the holy Char Dham pilgrimage, located on Pamban Island and connected by a historic railway bridge over the sea.",
+    "rating": 4.7
+  },
+  {
+    "id": 104,
+    "name": "Kanyakumari",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "beach",
+      "heritage",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "triveni-sangam",
+      "vivekananda-rock",
+      "sunset-sunrise",
+      "sea-confluence"
+    ],
+    "description": "The southernmost tip of mainland India, where the Arabian Sea, Indian Ocean, and Bay of Bengal meet.",
+    "rating": 4.6
+  },
+  {
+    "id": 105,
+    "name": "Thanjavur",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "heritage",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "brihadeeswara",
+      "chola",
+      "UNESCO",
+      "paintings"
+    ],
+    "description": "The capital of the mighty Chola Empire, home to the architectural wonder Brihadisvara Great Living Chola Temple.",
+    "rating": 4.7
+  },
+  {
+    "id": 106,
+    "name": "Kanchipuram",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "silk-sarees",
+      "temple-city",
+      "pallava-capital",
+      "gopurams"
+    ],
+    "description": "The City of Thousand Temples, globally famous for spectacular Pallava-era shrines and traditional Kanchipuram silk sarees.",
+    "rating": 4.5
+  },
+  {
+    "id": 107,
+    "name": "Chettinad",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "palatial-mansions",
+      "spicy-cuisine",
+      "architecture",
+      "handicrafts"
+    ],
+    "description": "Famous for massive, 19th-century mansions built with Burmese teak and Italian marble, and its unique, fiery cuisine.",
+    "rating": 4.4
+  },
+  {
+    "id": 108,
+    "name": "Dhanushkodi",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "beach",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "ghost-town",
+      "ram-setu",
+      "sea-confluence",
+      "offbeat"
+    ],
+    "description": "An abandoned ghost town at the tip of Pamban Island, where the calm waters of the shallow bay meet the roaring ocean waves.",
+    "rating": 4.7
+  },
+  {
+    "id": 109,
+    "name": "Valparai",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "tea-estates",
+      "hairpin-bends",
+      "wildlife",
+      "offbeat"
+    ],
+    "description": "An offbeat, eco-tourism hill station in the Anamalai Hills surrounded by lush tea estates, waterfalls, and rainforests.",
+    "rating": 4.5
+  },
+  {
+    "id": 110,
+    "name": "Mudumalai National Park",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "elephant-camp",
+      "safari",
+      "nilgiris",
+      "tiger-reserve"
+    ],
+    "description": "A wildlife sanctuary sharing borders with Karnataka and Kerala, famous for elephant conservation camps and rich avifauna.",
+    "rating": 4.4
+  },
+  {
+    "id": 111,
+    "name": "Chidambaram",
+    "state": "Tamil Nadu",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "nataraja",
+      "cosmic-dance",
+      "gold-roof",
+      "architecture"
+    ],
+    "description": "Centered around the ancient Nataraja Temple, dedicated to Lord Shiva in his majestic cosmic dance form.",
+    "rating": 4.5
+  },
+  {
+    "id": 112,
+    "name": "Kovalam",
+    "state": "Kerala",
+    "trip_types": [
+      "beach",
+      "nature"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "lighthouse-beach",
+      "crescent-beaches",
+      "ayurveda",
+      "sunset"
+    ],
+    "description": "A highly popular coastal destination featuring three adjacent crescent beaches with a towering red-and-white lighthouse.",
+    "rating": 4.5
+  },
+  {
+    "id": 113,
+    "name": "Kumarakom",
+    "state": "Kerala",
+    "trip_types": [
+      "nature"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "vembanad-lake",
+      "bird-sanctuary",
+      "backwaters",
+      "resorts"
+    ],
+    "description": "A picturesque backwater village set against Vembanad Lake, boasting a renowned migratory bird sanctuary.",
+    "rating": 4.6
+  },
+  {
+    "id": 114,
+    "name": "Thekkady",
+    "state": "Kerala",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "periyar-lake",
+      "boating-safari",
+      "spices",
+      "elephants"
+    ],
+    "description": "Home to the Periyar National Park, offering unique boat safaris on a scenic artificial lake to spot wild elephants.",
+    "rating": 4.6
+  },
+  {
+    "id": 115,
+    "name": "Vagamon",
+    "state": "Kerala",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "pine-forest",
+      "meadows",
+      "misty",
+      "paragliding"
+    ],
+    "description": "A quiet, green hill retreat featuring lush meadows, pine forests, tea estates, and misty green valleys.",
+    "rating": 4.4
+  },
+  {
+    "id": 116,
+    "name": "Bekal Fort",
+    "state": "Kerala",
+    "trip_types": [
+      "heritage",
+      "beach"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn",
+      "monsoon"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "keyhole-fort",
+      "beach-park",
+      "laterite",
+      "sunset"
+    ],
+    "description": "The largest fort in Kerala, uniquely shaped like a keyhole, standing majestically on the shores of the Arabian Sea.",
+    "rating": 4.5
+  },
+  {
+    "id": 117,
+    "name": "Athirappilly Waterfalls",
+    "state": "Kerala",
+    "trip_types": [
+      "nature"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "niagara-of-kerala",
+      "chlakudy-river",
+      "jungle",
+      "bahubali-falls"
+    ],
+    "description": "An 80-foot majestic waterfall rushing through the Sholayar forests, featured in many Indian films.",
+    "rating": 4.7
+  },
+  {
+    "id": 118,
+    "name": "Marari Beach",
+    "state": "Kerala",
+    "trip_types": [
+      "beach"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "quiet",
+      "hammocks",
+      "fishing-village",
+      "relaxing"
+    ],
+    "description": "A peaceful, clean beach near Alleppey, perfect for a relaxing getaway away from heavy tourist crowds.",
+    "rating": 4.4
+  },
+  {
+    "id": 119,
+    "name": "Silent Valley National Park",
+    "state": "Kerala",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "spring"
+    ],
+    "suitable_durations": [
+      "short"
+    ],
+    "tags": [
+      "rainforest",
+      "lion-tailed-macaque",
+      "pristine",
+      "biodiversity"
+    ],
+    "description": "An untouched, tropical evergreen rainforest ecosystem home to the endangered lion-tailed macaque monkeys.",
+    "rating": 4.6
+  },
+  {
+    "id": 120,
+    "name": "Poovar Island",
+    "state": "Kerala",
+    "trip_types": [
+      "beach",
+      "nature"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "estuary",
+      "floating-cottages",
+      "mangroves",
+      "backwaters"
+    ],
+    "description": "A beautiful coastal village featuring a unique estuary where a river, backwaters, and the sea meet.",
+    "rating": 4.5
+  },
+  {
+    "id": 121,
+    "name": "Jodhpur",
+    "state": "Rajasthan",
+    "trip_types": [
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "mehrangarh",
+      "blue-city",
+      "zipline",
+      "handicrafts"
+    ],
+    "description": "The Blue City, dominated by the majestic Mehrangarh Fort rising 400 feet above the vibrant blue-painted old town.",
+    "rating": 4.7,
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41"
+  },
+  {
+    "id": 122,
+    "name": "Bikaner",
+    "state": "Rajasthan",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "junagarh-fort",
+      "camel-research",
+      "bhujia",
+      "rat-temple"
+    ],
+    "description": "Famous for Junagarh Fort, Camel breeding farms, traditional spicy snacks, and the unique Karni Mata temple.",
+    "rating": 4.4,
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41"
+  },
+  {
+    "id": 123,
+    "name": "Chittorgarh Fort",
+    "state": "Rajasthan",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "colossal-fort",
+      "victory-tower",
+      "padmini-palace",
+      "rajput"
+    ],
+    "description": "The largest fort in India, carrying a legendary history of valor, sacrifice, and magnificent palaces.",
+    "rating": 4.7,
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41"
+  },
+  {
+    "id": 124,
+    "name": "Mount Abu",
+    "state": "Rajasthan",
+    "trip_types": [
+      "mountain",
+      "spiritual",
+      "nature"
+    ],
+    "best_seasons": [
+      "summer",
+      "monsoon",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "dilwara-temples",
+      "nakki-lake",
+      "hill-station",
+      "marble"
+    ],
+    "description": "The only hill station in Rajasthan, featuring beautiful Dilwara marble temples and serene Nakki Lake boating.",
+    "rating": 4.3,
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41"
+  },
+  {
+    "id": 125,
+    "name": "Alwar",
+    "state": "Rajasthan",
+    "trip_types": [
+      "heritage",
+      "nature"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "bhangarh-fort",
+      "sariska-tiger",
+      "lakes",
+      "haunted"
+    ],
+    "description": "Home to the allegedly haunted Bhangarh Fort and the Sariska Tiger Reserve, situated close to Delhi.",
+    "rating": 4.3,
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41"
+  },
+  {
+    "id": 126,
+    "name": "Mandawa",
+    "state": "Rajasthan",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "havelis",
+      "frescos",
+      "shekhawati",
+      "open-art-gallery"
+    ],
+    "description": "Famous for beautiful grand mansions (havelis) decorated with rich, colorful frescoes and murals.",
+    "rating": 4.4,
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41"
+  },
+  {
+    "id": 127,
+    "name": "Bharatpur Bird Sanctuary",
+    "state": "Rajasthan",
+    "trip_types": [
+      "nature"
+    ],
+    "best_seasons": [
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "keoladeo-park",
+      "UNESCO",
+      "migratory-birds",
+      "cycle-safari"
+    ],
+    "description": "A legendary UNESCO site hosting thousands of rare, migratory waterbirds like the Siberian Crane.",
+    "rating": 4.5,
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41"
+  },
+  {
+    "id": 128,
+    "name": "Ajmer Dargah",
+    "state": "Rajasthan",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "sufi-shrine",
+      "khwaja-garib-nawaz",
+      "ana-sagar",
+      "qawwali"
+    ],
+    "description": "Centered around the holy Sufi shrine of Khwaja Moinuddin Chishti, drawing millions of pilgrims of all faiths.",
+    "rating": 4.5,
+    "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41"
+  },
+  {
+    "id": 129,
+    "name": "Mathura & Vrindavan",
+    "state": "Uttar Pradesh",
+    "trip_types": [
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "krishna-birthplace",
+      "temples",
+      "holi",
+      "ghats"
+    ],
+    "description": "The sacred birthplace of Lord Krishna, famous for holy temples, Yamuna ghats, and colorful Holi celebrations.",
+    "rating": 4.6
+  },
+  {
+    "id": 130,
+    "name": "Sarnath",
+    "state": "Uttar Pradesh",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "buddhist-stupa",
+      "ashoka-pillar",
+      "deer-park",
+      "monastery"
+    ],
+    "description": "Where Lord Buddha preached his first sermon after attaining enlightenment, featuring the Dhamekh Stupa.",
+    "rating": 4.5
+  },
+  {
+    "id": 131,
+    "name": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "rama-temple",
+      "saryu-river",
+      "ghats",
+      "diwali"
+    ],
+    "description": "The sacred birthplace of Lord Rama, set along the Saryu River and famous for magnificent new temples.",
+    "rating": 4.8
+  },
+  {
+    "id": 132,
+    "name": "Lucknow",
+    "state": "Uttar Pradesh",
+    "trip_types": [
+      "urban",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "bara-imambara",
+      "chikan-embroidery",
+      "awadhi-food",
+      "kababs"
+    ],
+    "description": "The City of Nawabs, boasting royal Imambaras, delicate Chikankari clothing, and legendary Awadhi cuisine.",
+    "rating": 4.6
+  },
+  {
+    "id": 133,
+    "name": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "triveni-sangam",
+      "kumbh-mela",
+      "fort",
+      "holy-dip"
+    ],
+    "description": "The sacred confluence (Triveni Sangam) of Ganga, Yamuna, and Saraswati rivers, hosting the Kumbh Mela.",
+    "rating": 4.6
+  },
+  {
+    "id": 134,
+    "name": "Kushinagar",
+    "state": "Uttar Pradesh",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "mahaparinirvana",
+      "buddha",
+      "temple",
+      "monastery"
+    ],
+    "description": "The sacred Buddhist pilgrimage site where Lord Buddha attained Mahaparinirvana (death/salvation).",
+    "rating": 4.4
+  },
+  {
+    "id": 135,
+    "name": "Jhansi Fort",
+    "state": "Uttar Pradesh",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "rani-laxmibai",
+      "hillfort",
+      "historic",
+      "museum"
+    ],
+    "description": "A historic stronghold famous for the heroic stand of Rani Lakshmibai during the 1857 war.",
+    "rating": 4.3
+  },
+  {
+    "id": 136,
+    "name": "Mahabaleshwar",
+    "state": "Maharashtra",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter",
+      "summer"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "strawberries",
+      "points",
+      "lake",
+      "misty"
+    ],
+    "description": "A popular Western Ghats hill station, famous for strawberry farms, panoramic points, and pleasant weather.",
+    "rating": 4.4
+  },
+  {
+    "id": 137,
+    "name": "Panchgani",
+    "state": "Maharashtra",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "table-land",
+      "boarding-schools",
+      "mapro",
+      "scenic"
+    ],
+    "description": "Nestled between five hills, featuring the massive volcanic Table Land plateau and strawberry processing farms.",
+    "rating": 4.3
+  },
+  {
+    "id": 138,
+    "name": "Alibaug",
+    "state": "Maharashtra",
+    "trip_types": [
+      "beach",
+      "heritage",
+      "nature"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "sea-fort",
+      "beaches",
+      "ferry-ride",
+      "seafood"
+    ],
+    "description": "A popular weekend beach getaway close to Mumbai, featuring the sea-bound Kolaba Fort built by Shivaji.",
+    "rating": 4.3
+  },
+  {
+    "id": 139,
+    "name": "Khandala",
+    "state": "Maharashtra",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "ghats",
+      "waterfalls",
+      "hiking",
+      "valleys"
+    ],
+    "description": "A twin hill station to Lonavala, offering breathtaking views of lush green Western Ghat valleys in monsoon.",
+    "rating": 4.2
+  },
+  {
+    "id": 140,
+    "name": "Matheran",
+    "state": "Maharashtra",
+    "trip_types": [
+      "mountain",
+      "nature"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "no-vehicles",
+      "toy-train",
+      "eco-sensitive",
+      "horse-ride"
+    ],
+    "description": "Asia's only automobile-free hill station, providing clean, fresh air, shady trails, and viewpoint walks.",
+    "rating": 4.5
+  },
+  {
+    "id": 141,
+    "name": "Tadoba National Park",
+    "state": "Maharashtra",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "summer",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "tigers",
+      "safari",
+      "forest-resorts",
+      "lake"
+    ],
+    "description": "Maharashtra's oldest and largest national park, holding an exceptionally high population of Bengal Tigers.",
+    "rating": 4.6
+  },
+  {
+    "id": 142,
+    "name": "Pune",
+    "state": "Maharashtra",
+    "trip_types": [
+      "urban",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "monsoon",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "shaniwar-wada",
+      "student-hub",
+      "cafes",
+      "it-parks"
+    ],
+    "description": "A historic Peshwa capital and vibrant student city, offering ancient fort ruins, temples, and a buzzing cafe scene.",
+    "rating": 4.4
+  },
+  {
+    "id": 143,
+    "name": "Kolhapur",
+    "state": "Maharashtra",
+    "trip_types": [
+      "heritage",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "mahalaxmi-temple",
+      "footwear",
+      "spicy-mutton",
+      "wrestling"
+    ],
+    "description": "Home to the sacred Mahalaxmi Temple, traditional Kolhapuri leather slippers, and fiery spicy local curries.",
+    "rating": 4.4
+  },
+  {
+    "id": 144,
+    "name": "Ganpatipule",
+    "state": "Maharashtra",
+    "trip_types": [
+      "beach",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "ganesha",
+      "beach-temple",
+      "clean-sands",
+      "konkan"
+    ],
+    "description": "A serene coastal village in Konkan, famous for a 400-year-old Ganesha temple sitting directly on the beach.",
+    "rating": 4.5
+  },
+  {
+    "id": 145,
+    "name": "Bhandardara",
+    "state": "Maharashtra",
+    "trip_types": [
+      "nature",
+      "mountain",
+      "adventure"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "lake",
+      "dam",
+      "trekking",
+      "fireflies-festival"
+    ],
+    "description": "A scenic hill valley by the Pravara River, hosting a massive dam, waterfalls, and the Fireflies Festival in summer.",
+    "rating": 4.4
+  },
+  {
+    "id": 146,
+    "name": "Harihareshwar",
+    "state": "Maharashtra",
+    "trip_types": [
+      "beach",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "temple",
+      "rocky-beach",
+      "pradakshina",
+      "quiet"
+    ],
+    "description": "A tranquil Konkan beach town flanked by hills, famous for its ancient temple and scenic rocky seaside walking trail.",
+    "rating": 4.3
+  },
+  {
+    "id": 147,
+    "name": "Bhimashankar",
+    "state": "Maharashtra",
+    "trip_types": [
+      "spiritual",
+      "nature"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "jyotirlinga",
+      "giant-squirrel",
+      "trekking",
+      "forest"
+    ],
+    "description": "A holy Jyotirlinga Shiva temple set inside a lush forest reserve famous for the Giant Indian Squirrel.",
+    "rating": 4.5
+  },
+  {
+    "id": 148,
+    "name": "Lavasa",
+    "state": "Maharashtra",
+    "trip_types": [
+      "urban",
+      "nature"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "planned-city",
+      "lakefront",
+      "colourful",
+      "relaxing"
+    ],
+    "description": "A private, planned hill city modeled on the Italian town of Portofino, featuring colorful lakefront promenades.",
+    "rating": 4.0
+  },
+  {
+    "id": 149,
+    "name": "Shirdi Sai Temple",
+    "state": "Maharashtra",
+    "trip_types": [
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "sai-baba",
+      "shrine",
+      "pilgrimage",
+      "prasadalay"
+    ],
+    "description": "One of the most visited pilgrimage sites in India, dedicated to the revered saint Sai Baba.",
+    "rating": 4.6
+  },
+  {
+    "id": 150,
+    "name": "Daman & Diu",
+    "state": "Goa",
+    "trip_types": [
+      "beach",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "diu-fort",
+      "beaches",
+      "portuguese-colonial",
+      "churches"
+    ],
+    "description": "Flamboyant coastal enclaves boasting massive 16th-century Portuguese forts, churches, and laidback sandy beaches.",
+    "rating": 4.4
+  },
+  {
+    "id": 151,
+    "name": "Gwalior Fort",
+    "state": "Madhya Pradesh",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "impenetrable-fort",
+      "palace",
+      "scindia",
+      "rock-sculptures"
+    ],
+    "description": "Called 'the pearl amongst fortresses in India' by Babur, towering spectacularly over Gwalior city.",
+    "rating": 4.6
+  },
+  {
+    "id": 152,
+    "name": "Sanchi Stupa",
+    "state": "Madhya Pradesh",
+    "trip_types": [
+      "heritage",
+      "spiritual"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "ashokan",
+      "UNESCO",
+      "buddhist-architecture",
+      "gateways"
+    ],
+    "description": "One of the oldest stone structures in India, containing the relics of Buddha inside a grand brick dome.",
+    "rating": 4.6
+  },
+  {
+    "id": 153,
+    "name": "Kanha National Park",
+    "state": "Madhya Pradesh",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "barasingha",
+      "jungle-book",
+      "tiger-safari",
+      "sal-forest"
+    ],
+    "description": "One of India's largest national parks, serving as the setting for Rudyard Kipling's famous Jungle Book.",
+    "rating": 4.7
+  },
+  {
+    "id": 154,
+    "name": "Pench National Park",
+    "state": "Madhya Pradesh",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "mowgli",
+      "tiger-safari",
+      "teak-forest",
+      "birds"
+    ],
+    "description": "A stunning teak forest reserve stretching into Maharashtra, known for excellent tiger and leopard sightings.",
+    "rating": 4.6
+  },
+  {
+    "id": 155,
+    "name": "Ujjain Temples",
+    "state": "Madhya Pradesh",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "jyotirlinga",
+      "kshipra-river",
+      "ancient",
+      "pilgrimage"
+    ],
+    "description": "An ancient holy city situated on the banks of the Kshipra River, home to the Mahakaleshwar Jyotirlinga.",
+    "rating": 4.7
+  },
+  {
+    "id": 156,
+    "name": "Amarkantak",
+    "state": "Madhya Pradesh",
+    "trip_types": [
+      "spiritual",
+      "nature"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn",
+      "monsoon"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "narmada-source",
+      "hills",
+      "temples",
+      "offbeat"
+    ],
+    "description": "A unique pilgrim town nestled between Vindhya and Satpura ranges, being the source of the holy Narmada River.",
+    "rating": 4.4
+  },
+  {
+    "id": 157,
+    "name": "Pachmarhi",
+    "state": "Madhya Pradesh",
+    "trip_types": [
+      "mountain",
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter",
+      "summer"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "queen-of-satpuras",
+      "caves",
+      "waterfalls",
+      "viewpoints"
+    ],
+    "description": "The sole hill station in MP, offering beautiful forest waterfalls, viewpoints, and ancient Pandav caves.",
+    "rating": 4.5
+  },
+  {
+    "id": 158,
+    "name": "Bhimbetka Rock Shelters",
+    "state": "Madhya Pradesh",
+    "trip_types": [
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "prehistoric-paintings",
+      "cavemen",
+      "UNESCO",
+      "stone-age"
+    ],
+    "description": "A UNESCO site showing the earliest traces of human life on the Indian subcontinent via 30,000-year-old rock paintings.",
+    "rating": 4.5
+  },
+  {
+    "id": 159,
+    "name": "Gokarna Beaches",
+    "state": "Karnataka",
+    "trip_types": [
+      "beach",
+      "adventure"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "kudle-beach",
+      "backpackers",
+      "shacks",
+      "hippie"
+    ],
+    "description": "Lesser crowded, beautiful beaches near Gokarna popular for serene sunset cafes and night walks.",
+    "rating": 4.5
+  },
+  {
+    "id": 160,
+    "name": "Kumily",
+    "state": "Kerala",
+    "trip_types": [
+      "nature",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "spices",
+      "plantation-tours",
+      "kathakali",
+      "border-town"
+    ],
+    "description": "A spice-trade gateway village right next to the Periyar Tiger Reserve, famous for spice tours.",
+    "rating": 4.3
+  },
+  {
+    "id": 161,
+    "name": "Chopta Meadows",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "alpine-meadows",
+      "camping",
+      "rhododendron",
+      "offbeat"
+    ],
+    "description": "Lush alpine grasslands surrounded by dense red rhododendron and pine forests.",
+    "rating": 4.6
+  },
+  {
+    "id": 162,
+    "name": "Bhimtal",
+    "state": "Uttarakhand",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "summer",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "lake",
+      "island",
+      "aquarium",
+      "peaceful"
+    ],
+    "description": "A quieter lake town neighbor to Nainital, featuring a scenic island aquarium in the middle of a massive lake.",
+    "rating": 4.3
+  },
+  {
+    "id": 163,
+    "name": "Maredumilli",
+    "state": "Andhra Pradesh",
+    "trip_types": [
+      "nature",
+      "adventure"
+    ],
+    "best_seasons": [
+      "monsoon",
+      "winter"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "bamboo-chicken",
+      "rainforest",
+      "waterfalls",
+      "offbeat"
+    ],
+    "description": "A lush, rich rainforest ecological retreat in Andhra Pradesh famous for waterfalls and local bamboo-baked dishes.",
+    "rating": 4.3
+  },
+  {
+    "id": 164,
+    "name": "Araku Valley",
+    "state": "Andhra Pradesh",
+    "trip_types": [
+      "nature",
+      "mountain"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "coffee-plantations",
+      "caves",
+      "tribal-museum",
+      "scenic"
+    ],
+    "description": "A scenic hill valley in the Eastern Ghats famous for aromatic organic coffee estates and the Borra Caves.",
+    "rating": 4.4
+  },
+  {
+    "id": 165,
+    "name": "Somnath Coastal Temple",
+    "state": "Gujarat",
+    "trip_types": [
+      "spiritual",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "jyotirlinga",
+      "sea-view",
+      "light-show",
+      "coastline"
+    ],
+    "description": "The first of the twelve sacred Jyotirlinga shrines of Lord Shiva, sitting right on the shore of the Arabian Sea.",
+    "rating": 4.8
+  },
+  {
+    "id": 166,
+    "name": "Dwarka Temple & Beach",
+    "state": "Gujarat",
+    "trip_types": [
+      "spiritual",
+      "heritage",
+      "beach"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn",
+      "spring"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short"
+    ],
+    "tags": [
+      "krishna-capital",
+      "dwarkadhish",
+      "marine",
+      "sacred"
+    ],
+    "description": "The ancient holy capital of Lord Krishna's kingdom, featuring the highly sacred Dwarkadhish Temple and a beautiful beach.",
+    "rating": 4.7
+  },
+  {
+    "id": 167,
+    "name": "Mandvi Wind Farms & Palace",
+    "state": "Gujarat",
+    "trip_types": [
+      "beach",
+      "heritage"
+    ],
+    "best_seasons": [
+      "winter",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend"
+    ],
+    "tags": [
+      "windmills",
+      "palace-beach",
+      "gujarat-coast",
+      "relaxing"
+    ],
+    "description": "Beautiful coastal destination in Kutch offering sandy wind-farm beaches and the majestic Vijay Vilas Palace complex.",
+    "rating": 4.4
+  },
+  {
+    "id": 168,
+    "name": "Havelock Island",
+    "state": "Andaman & Nicobar Islands",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Andaman & Nicobar Islands, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 169,
+    "name": "Neil Island",
+    "state": "Andaman & Nicobar Islands",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Andaman & Nicobar Islands, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 170,
+    "name": "Port Blair",
+    "state": "Andaman & Nicobar Islands",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Andaman & Nicobar Islands, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 171,
+    "name": "Baratang Island",
+    "state": "Andaman & Nicobar Islands",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Andaman & Nicobar Islands, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 172,
+    "name": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Andhra Pradesh, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 173,
+    "name": "Namdapha National Park",
+    "state": "Arunachal Pradesh",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Arunachal Pradesh, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 174,
+    "name": "Roing",
+    "state": "Arunachal Pradesh",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Arunachal Pradesh, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 175,
+    "name": "Bomdila",
+    "state": "Arunachal Pradesh",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Arunachal Pradesh, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 176,
+    "name": "Kaziranga National Park",
+    "state": "Assam",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Assam, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 177,
+    "name": "Majuli",
+    "state": "Assam",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Assam, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 178,
+    "name": "Guwahati",
+    "state": "Assam",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Assam, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 179,
+    "name": "Manas National Park",
+    "state": "Assam",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Assam, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 180,
+    "name": "Nalanda",
+    "state": "Bihar",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Bihar, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 181,
+    "name": "Patna",
+    "state": "Bihar",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Bihar, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 182,
+    "name": "Rajgir",
+    "state": "Bihar",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Bihar, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 183,
+    "name": "Vaishali",
+    "state": "Bihar",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Bihar, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 184,
+    "name": "Raipur",
+    "state": "Chhattisgarh",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Chhattisgarh, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 185,
+    "name": "Jagdalpur",
+    "state": "Chhattisgarh",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Chhattisgarh, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 186,
+    "name": "Sirpur",
+    "state": "Chhattisgarh",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Chhattisgarh, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 187,
+    "name": "Bhilai",
+    "state": "Chhattisgarh",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Chhattisgarh, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 188,
+    "name": "Red Fort",
+    "state": "Delhi",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Delhi, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 189,
+    "name": "Qutub Minar",
+    "state": "Delhi",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Delhi, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 190,
+    "name": "India Gate",
+    "state": "Delhi",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Delhi, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 191,
+    "name": "Lotus Temple",
+    "state": "Delhi",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Delhi, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 192,
+    "name": "Baga Beach",
+    "state": "Goa",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Goa, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 193,
+    "name": "Dudhsagar Waterfalls",
+    "state": "Goa",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Goa, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 194,
+    "name": "Fort Aguada",
+    "state": "Goa",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Goa, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 195,
+    "name": "Kurukshetra",
+    "state": "Haryana",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Haryana, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 196,
+    "name": "Gurugram",
+    "state": "Haryana",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Haryana, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 197,
+    "name": "Panipat",
+    "state": "Haryana",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Haryana, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 198,
+    "name": "Pinjore Gardens",
+    "state": "Haryana",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Haryana, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 199,
+    "name": "Surajkund",
+    "state": "Haryana",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Haryana, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 200,
+    "name": "Pahalgam",
+    "state": "Jammu & Kashmir",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Jammu & Kashmir, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 201,
+    "name": "Sonamarg",
+    "state": "Jammu & Kashmir",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Jammu & Kashmir, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 202,
+    "name": "Vaishno Devi",
+    "state": "Jammu & Kashmir",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Jammu & Kashmir, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 203,
+    "name": "Pangong Lake",
+    "state": "Ladakh",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Ladakh, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 204,
+    "name": "Nubra Valley",
+    "state": "Ladakh",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Ladakh, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 205,
+    "name": "Leh",
+    "state": "Ladakh",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Ladakh, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 206,
+    "name": "Tso Moriri",
+    "state": "Ladakh",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Ladakh, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 207,
+    "name": "Agatti Island",
+    "state": "Lakshadweep",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Lakshadweep, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 208,
+    "name": "Bangaram Island",
+    "state": "Lakshadweep",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Lakshadweep, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 209,
+    "name": "Kavaratti",
+    "state": "Lakshadweep",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Lakshadweep, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 210,
+    "name": "Minicoy Island",
+    "state": "Lakshadweep",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Lakshadweep, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 211,
+    "name": "Imphal",
+    "state": "Manipur",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Manipur, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 212,
+    "name": "Kangla Fort",
+    "state": "Manipur",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Manipur, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 213,
+    "name": "Dzuko Valley",
+    "state": "Manipur",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Manipur, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 214,
+    "name": "Moirang",
+    "state": "Manipur",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Manipur, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 215,
+    "name": "Dawki",
+    "state": "Meghalaya",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Meghalaya, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 216,
+    "name": "Mawlynnong",
+    "state": "Meghalaya",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Meghalaya, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 217,
+    "name": "Nohkalikai Falls",
+    "state": "Meghalaya",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Meghalaya, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 218,
+    "name": "Lunglei",
+    "state": "Mizoram",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Mizoram, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 219,
+    "name": "Champhai",
+    "state": "Mizoram",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Mizoram, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 220,
+    "name": "Reiek",
+    "state": "Mizoram",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Mizoram, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 221,
+    "name": "Vantawng Falls",
+    "state": "Mizoram",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Mizoram, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 222,
+    "name": "Dimapur",
+    "state": "Nagaland",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Nagaland, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 223,
+    "name": "Mokokchung",
+    "state": "Nagaland",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Nagaland, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 224,
+    "name": "Dzukou Valley",
+    "state": "Nagaland",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Nagaland, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 225,
+    "name": "Mon",
+    "state": "Nagaland",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Nagaland, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 226,
+    "name": "Bhubaneswar",
+    "state": "Odisha",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Odisha, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 227,
+    "name": "Chilika Lake",
+    "state": "Odisha",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Odisha, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 228,
+    "name": "Cuttack",
+    "state": "Odisha",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Odisha, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 229,
+    "name": "Promenade Beach",
+    "state": "Puducherry",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Puducherry, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 230,
+    "name": "Auroville",
+    "state": "Puducherry",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Puducherry, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 231,
+    "name": "Paradise Beach",
+    "state": "Puducherry",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Puducherry, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 232,
+    "name": "Arikamedu",
+    "state": "Puducherry",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Puducherry, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 233,
+    "name": "Ludhiana",
+    "state": "Punjab",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Punjab, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 234,
+    "name": "Jalandhar",
+    "state": "Punjab",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Punjab, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 235,
+    "name": "Patiala",
+    "state": "Punjab",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Punjab, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 236,
+    "name": "Lachung",
+    "state": "Sikkim",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Sikkim, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 237,
+    "name": "Nathula Pass",
+    "state": "Sikkim",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Sikkim, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 238,
+    "name": "Tsomgo Lake",
+    "state": "Sikkim",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Sikkim, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 239,
+    "name": "Warangal",
+    "state": "Telangana",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Telangana, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 240,
+    "name": "Ramoji Film City",
+    "state": "Telangana",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Telangana, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 241,
+    "name": "Golconda Fort",
+    "state": "Telangana",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Telangana, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 242,
+    "name": "Nagarjuna Sagar",
+    "state": "Telangana",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in Telangana, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 243,
+    "name": "Digha",
+    "state": "West Bengal",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in West Bengal, known for its scenic views and rich culture.",
+    "rating": 4.5
+  },
+  {
+    "id": 244,
+    "name": "Siliguri",
+    "state": "West Bengal",
+    "trip_types": [
+      "nature",
+      "heritage",
+      "urban"
+    ],
+    "best_seasons": [
+      "winter",
+      "summer",
+      "monsoon",
+      "spring",
+      "autumn"
+    ],
+    "suitable_durations": [
+      "weekend",
+      "short",
+      "week"
+    ],
+    "tags": [
+      "scenic",
+      "popular",
+      "tourist"
+    ],
+    "description": "A beautiful and popular destination in West Bengal, known for its scenic views and rich culture.",
+    "rating": 4.5
+  }
+]

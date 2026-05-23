@@ -10,6 +10,7 @@ import SeasonSelectionCard from "@/components/SeasonSelectionCard";
 import DurationCard from "@/components/DurationCard";
 import ReviewCard from "@/components/ReviewCard";
 import DoneCard from "@/components/DoneCard";
+import ResultsCard from "@/components/ResultsCard";
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 
@@ -120,6 +121,7 @@ export default function IndiaTripPlanner() {
   const [duration, setDuration] = useState(null);
   const [loading, setLoading] = useState(false);
   const [done, setDone] = useState(false);
+  const [results, setResults] = useState(null);
 
   // Merged + deduplicated state list from selected trip types
   const availableStates = useMemo(() => {
@@ -141,7 +143,7 @@ export default function IndiaTripPlanner() {
     );
   }
 
-  function handleSearch() {
+  async function handleSearch() {
     const payload = {
       trip_types: tripTypes,
       states: selectedStates,
@@ -150,10 +152,22 @@ export default function IndiaTripPlanner() {
     };
     console.log("🗺️ India Trip Planner — Search Payload:", JSON.stringify(payload, null, 2));
     setLoading(true);
-    setTimeout(() => {
+    try {
+      const res = await fetch("/api/recommend", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const data = await res.json();
+      if (data.places) {
+        setResults(data.places);
+      }
+    } catch (err) {
+      console.error("Recommendation API error:", err);
+    } finally {
       setLoading(false);
       setDone(true);
-    }, 2800);
+    }
   }
 
   function resetAll() {
@@ -164,6 +178,7 @@ export default function IndiaTripPlanner() {
     setSeason(null);
     setDuration(null);
     setDone(false);
+    setResults(null);
   }
 
   // ── Render steps ────────────────────────────────────────────────────────────
@@ -172,7 +187,11 @@ export default function IndiaTripPlanner() {
     return (
       <div style={styles.page}>
         <Mandala />
-        <DoneCard tripTypes={tripTypes} TRIP_TYPE_CONFIG={TRIP_TYPE_CONFIG} resetAll={resetAll} />
+        {results && results.length > 0 ? (
+          <ResultsCard places={results} TRIP_TYPE_CONFIG={TRIP_TYPE_CONFIG} resetAll={resetAll} />
+        ) : (
+          <DoneCard tripTypes={tripTypes} TRIP_TYPE_CONFIG={TRIP_TYPE_CONFIG} resetAll={resetAll} />
+        )}
       </div>
     );
   }
