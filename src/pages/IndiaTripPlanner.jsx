@@ -11,6 +11,7 @@ import DurationCard from "@/components/DurationCard";
 import ReviewCard from "@/components/ReviewCard";
 import DoneCard from "@/components/DoneCard";
 import ResultsCard from "@/components/ResultsCard";
+import NearYouCarousel from "@/components/NearYouCarousel";
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 
@@ -90,6 +91,17 @@ const TRIP_TYPE_CONFIG = {
       "Delhi", "Maharashtra", "Karnataka", "Tamil Nadu", "Telangana",
       "West Bengal", "Gujarat", "Rajasthan", "Punjab", "Kerala",
       "Andhra Pradesh", "Uttar Pradesh", "Haryana",
+    ],
+  },
+  wildlife: {
+    label: "Wildlife",
+    icon: "🐯",
+    color: "#4b5320",
+    bg: "#e6eedd",
+    states: [
+      "Assam", "Rajasthan", "Uttarakhand", "West Bengal", "Madhya Pradesh",
+      "Gujarat", "Kerala", "Maharashtra", "Karnataka", "Tamil Nadu",
+      "Andaman & Nicobar Islands"
     ],
   },
 };
@@ -260,6 +272,9 @@ export default function IndiaTripPlanner() {
         />}
       </div>
 
+      {/* ── Near You Carousel ── */}
+      <NearYouCarousel />
+
       <p style={styles.footer}>Made with ♥ for every wanderer</p>
     </div>
   );
@@ -299,6 +314,5 @@ const styles = {
     fontSize: 13,
     letterSpacing: 1,
     fontFamily: "'Verdana', sans-serif",
-    zIndex: 1,
   },
 };

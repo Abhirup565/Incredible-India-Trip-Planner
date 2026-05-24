@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import PlaceDetailsModal from "./PlaceDetailsModal";
 
 // ── Color helpers ────────────────────────────────────────────────────────────
 
@@ -59,12 +60,13 @@ const STATE_IMAGES = {
 
 // ── Place Card ───────────────────────────────────────────────────────────────
 
-function PlaceCard({ place, index, TRIP_TYPE_CONFIG }) {
+function PlaceCard({ place, index, TRIP_TYPE_CONFIG, onClick }) {
   const [hovered, setHovered] = useState(false);
   const bgImg = STATE_IMAGES[place.state] || STATE_IMAGES.default;
 
   return (
     <div
+      onClick={() => onClick(place)}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{
@@ -80,6 +82,7 @@ function PlaceCard({ place, index, TRIP_TYPE_CONFIG }) {
         flexDirection: "column",
         position: "relative",
         overflow: "hidden",
+        cursor: "pointer",
       }}
     >
       {/* State Image Banner */}
@@ -240,6 +243,8 @@ function PlaceCard({ place, index, TRIP_TYPE_CONFIG }) {
 // ── Results Card (main export) ───────────────────────────────────────────────
 
 export default function ResultsCard({ places, TRIP_TYPE_CONFIG, resetAll }) {
+  const [selectedPlace, setSelectedPlace] = useState(null);
+
   return (
     <div
       style={{
@@ -292,6 +297,7 @@ export default function ResultsCard({ places, TRIP_TYPE_CONFIG, resetAll }) {
             place={place}
             index={i}
             TRIP_TYPE_CONFIG={TRIP_TYPE_CONFIG}
+            onClick={setSelectedPlace}
           />
         ))}
       </div>
@@ -317,6 +323,14 @@ export default function ResultsCard({ places, TRIP_TYPE_CONFIG, resetAll }) {
       >
         ✦ Plan Another Trip
       </button>
+
+      {/* Modal */}
+      {selectedPlace && (
+        <PlaceDetailsModal 
+          place={selectedPlace} 
+          onClose={() => setSelectedPlace(null)} 
+        />
+      )}
     </div>
   );
 }

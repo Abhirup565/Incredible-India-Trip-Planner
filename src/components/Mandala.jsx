@@ -5,6 +5,7 @@ export default function Mandala() {
     return (
         <>
             <svg
+                className="hide-on-mobile"
                 viewBox="0 0 400 400"
                 style={styles.mandala1}
                 xmlns="http://www.w3.org/2000/svg"
@@ -25,6 +26,7 @@ export default function Mandala() {
                 <style>{`@keyframes rotateAnticlock { to { transform: rotate(-360deg); } }`}</style>
             </svg>
             <svg
+                className="hide-on-mobile"
                 viewBox="0 0 400 400"
                 style={styles.mandala2}
                 xmlns="http://www.w3.org/2000/svg"

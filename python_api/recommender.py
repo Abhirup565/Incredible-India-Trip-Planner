@@ -16,7 +16,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # ── Feature columns (must match frontend constants) ──────────────────────────
 
-TRIP_TYPES = ["nature", "adventure", "mountain", "beach", "heritage", "spiritual", "urban"]
+TRIP_TYPES = ["nature", "adventure", "mountain", "beach", "heritage", "spiritual", "urban", "wildlife"]
 SEASONS    = ["summer", "monsoon", "autumn", "winter", "spring"]
 DURATIONS  = ["weekend", "short", "week", "extended"]
 
@@ -76,58 +76,44 @@ def _encode_user(trip_types: list, season: str, duration: str) -> np.ndarray:
 def recommend(trip_types: list, states: list, season: str, duration: str, top_n: int = 15):
     """
     Return the top-N places ranked by cosine similarity to the user query.
-    If states are selected:
-      - If there are matching trip types in the selected states, strictly filter by state.
-      - If no matching trip types exist in those states, fall back to showing best matches
-        all-India (marked outside_state=True) along with general state options.
+    Enforces STRICT filtering for state and trip_type as the highest priority.
     """
     places = _load_places()
     if not places:
         return []
 
+    # 1. STRICT FILTERING: Must match selected states (if any are selected)
+    if states:
+        places = [p for p in places if p["state"] in states]
+
+    # 2. STRICT FILTERING: Must match AT LEAST ONE selected trip type (if any are selected)
+    if trip_types:
+        places = [p for p in places if any(t in p.get("trip_types", []) for t in trip_types)]
+
+    # If no places survive the strict filters, return empty
+    if not places:
+        return []
+
+    # 3. SCORING: Use cosine similarity to rank the surviving places based on
+    # how many trip types they hit, and whether they match season/duration.
     user_vec = _encode_user(trip_types, season, duration).reshape(1, -1)
     place_vecs = np.array([_encode_place(p) for p in places])
 
     # Cosine similarity → 1-D array of scores
     scores = cosine_similarity(user_vec, place_vecs).flatten()
 
-    # Build initial list of scored places
-    scored_places = []
+    # Build final list of scored places
+    results = []
     for i, place in enumerate(places):
-        scored_places.append({
+        results.append({
             **place,
             "score": round(float(scores[i]) * 100, 1),
             "outside_state": False
         })
 
-    # State matching logic
-    if states:
-        state_places = [p for p in scored_places if p["state"] in states]
-        
-        # Check if any places in the selected states match at least one selected trip type
-        has_type_match = any(any(t in p.get("trip_types", []) for t in trip_types) for p in state_places)
-        
-        if has_type_match:
-            # Strict filter: only show places in the selected states
-            results = state_places
-        else:
-            # Fallback: No matching trip types in selected states
-            # 1. Best matches from all of India (marked as outside_state)
-            all_india_matches = []
-            for p in scored_places:
-                if p["state"] not in states:
-                    all_india_matches.append({**p, "outside_state": True})
-            all_india_matches.sort(key=lambda x: (-x["score"], -x.get("rating", 0)))
-            
-            # 2. General options from the selected states
-            state_places.sort(key=lambda x: (-x["score"], -x.get("rating", 0)))
-            
-            # Merge both (top general state places + top all-India matches)
-            results = state_places[:3] + all_india_matches[:top_n]
-    else:
-        results = scored_places
-
-    # Final sort, filter 0 scores, and limit
-    results = [r for r in results if r["score"] > 0]
+    # Sort by score descending, then by rating descending to break ties
     results.sort(key=lambda x: (-x["score"], -x.get("rating", 0)))
+    
+    # We can optionally drop items with a 0 score, but since we strictly filtered,
+    # all returned items are guaranteed to have the right state and trip type.
     return results[:top_n]

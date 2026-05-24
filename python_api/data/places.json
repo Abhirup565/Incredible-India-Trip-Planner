@@ -216,7 +216,8 @@
     "state": "Kerala",
     "trip_types": [
       "nature",
-      "mountain"
+      "mountain",
+      "wildlife"
     ],
     "best_seasons": [
       "autumn",
@@ -320,7 +321,8 @@
     "state": "Rajasthan",
     "trip_types": [
       "heritage",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "winter"
@@ -494,7 +496,8 @@
     "state": "West Bengal",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "winter"
@@ -673,7 +676,8 @@
     "state": "Assam",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -946,7 +950,8 @@
     "state": "Madhya Pradesh",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "summer",
@@ -1015,7 +1020,7 @@
       "street-food",
       "nightlife"
     ],
-    "description": "The city of dreams — a melting pot of cultures, Bollywood glamour, and iconic landmarks.",
+    "description": "The city of dreams \u2014 a melting pot of cultures, Bollywood glamour, and iconic landmarks.",
     "rating": 4.5
   },
   {
@@ -1173,7 +1178,8 @@
     "state": "Kerala",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "monsoon",
@@ -1347,7 +1353,8 @@
     "state": "Rajasthan",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "summer",
@@ -1487,7 +1494,7 @@
       "pilgrimage",
       "dravidian"
     ],
-    "description": "Home to the world's richest and most-visited temple — Sri Venkateswara (Balaji).",
+    "description": "Home to the world's richest and most-visited temple \u2014 Sri Venkateswara (Balaji).",
     "rating": 4.5
   },
   {
@@ -1545,7 +1552,8 @@
     "name": "Loktak Lake",
     "state": "Manipur",
     "trip_types": [
-      "nature"
+      "nature",
+      "wildlife"
     ],
     "best_seasons": [
       "autumn",
@@ -1674,7 +1682,8 @@
     "state": "Gujarat",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -2001,7 +2010,8 @@
     "state": "Himachal Pradesh",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "spring",
@@ -2156,7 +2166,8 @@
     "state": "Uttarakhand",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -2359,7 +2370,8 @@
     "state": "Karnataka",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -2385,7 +2397,8 @@
     "state": "Karnataka",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -2725,7 +2738,8 @@
     "state": "Tamil Nadu",
     "trip_types": [
       "nature",
-      "mountain"
+      "mountain",
+      "wildlife"
     ],
     "best_seasons": [
       "monsoon",
@@ -2751,7 +2765,8 @@
     "state": "Tamil Nadu",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -2823,7 +2838,8 @@
     "name": "Kumarakom",
     "state": "Kerala",
     "trip_types": [
-      "nature"
+      "nature",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -2848,7 +2864,8 @@
     "state": "Kerala",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -2922,7 +2939,8 @@
     "name": "Athirappilly Waterfalls",
     "state": "Kerala",
     "trip_types": [
-      "nature"
+      "nature",
+      "wildlife"
     ],
     "best_seasons": [
       "monsoon",
@@ -2969,7 +2987,8 @@
     "state": "Kerala",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -2993,7 +3012,8 @@
     "state": "Kerala",
     "trip_types": [
       "beach",
-      "nature"
+      "nature",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -3119,7 +3139,8 @@
     "state": "Rajasthan",
     "trip_types": [
       "heritage",
-      "nature"
+      "nature",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -3167,7 +3188,8 @@
     "name": "Bharatpur Bird Sanctuary",
     "state": "Rajasthan",
     "trip_types": [
-      "nature"
+      "nature",
+      "wildlife"
     ],
     "best_seasons": [
       "winter"
@@ -3240,7 +3262,8 @@
     "state": "Uttar Pradesh",
     "trip_types": [
       "spiritual",
-      "heritage"
+      "heritage",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -3511,7 +3534,8 @@
     "state": "Maharashtra",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "summer",
@@ -3803,7 +3827,8 @@
     "state": "Madhya Pradesh",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -3828,7 +3853,8 @@
     "state": "Madhya Pradesh",
     "trip_types": [
       "nature",
-      "adventure"
+      "adventure",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -3978,7 +4004,8 @@
     "state": "Kerala",
     "trip_types": [
       "nature",
-      "heritage"
+      "heritage",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -4322,7 +4349,8 @@
     "trip_types": [
       "nature",
       "heritage",
-      "urban"
+      "urban",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -4409,7 +4437,8 @@
     "trip_types": [
       "nature",
       "heritage",
-      "urban"
+      "urban",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
@@ -4496,7 +4525,8 @@
     "trip_types": [
       "nature",
       "heritage",
-      "urban"
+      "urban",
+      "wildlife"
     ],
     "best_seasons": [
       "winter",
